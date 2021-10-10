@@ -18,12 +18,12 @@ html {
 
 body {
     margin: 0;
-    background: radial-gradient(#9D5900, #3D2200);
+    background: radial-gradient(yellow, lightyellow);
 }
 
 .page-title {
     color: #FF6D00;
-    font-family: Creepy, serif;
+    font-family: serif;
     font-weight: normal;
     text-align: center;
     font-size: 6em;
@@ -37,7 +37,7 @@ body {
 
 .game-info {
     color: #FFBB89;
-    font-family: Lunacy, serif;
+    font-family: serif;
     font-size: 4em;
 }
 
@@ -95,7 +95,7 @@ body {
     align-items: center;
     z-index: 100;
     color: #FF6D00;
-    font-family: Creepy, serif;
+    font-family: serif;
     text-align: center;
 }
 
@@ -135,11 +135,11 @@ body {
 
 .card-back {
     background: black;
-    border-color: #FF6D00;
+    border-color: green;
 }
 
 .card-front {
-    background: #FFBB89;
+    background: lightgreen;
     border-color: #333;
     transform: rotateY(180deg);
 }
@@ -194,13 +194,14 @@ body {
 }
 
 .spider {
+    width: 50%;
     align-self: flex-start;
-    transform: translateY(-10px);
+    transform: translateY(50px);
     transition: transform 100mx ease-in-out;
 }
 
 .card-back:hover .spider {
-    transform: translateY(0);
+    transform: translateY(45px);
 }
 
 @media (max-width:600px) {
@@ -212,7 +213,7 @@ body {
     }
     .card {
         position: relative;
-        height: 125px;
+        height: 105px;
         width: 75px;
     }
     .cob-web {
@@ -233,8 +234,10 @@ body {
         width: 70%;
         height: 70%;
     }
-    /* .game-info-container {
-        flex-direction: row;
-        align-items: center;
-    } */
+    .card-value {
+        transform: scale(0.4);
+    }
+    .card-front:hover .card-value {
+        transform: scale(0.45);
+    }
 }
