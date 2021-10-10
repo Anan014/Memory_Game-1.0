@@ -204,6 +204,12 @@ body {
 }
 
 @media (max-width:600px) {
+    .page-title {
+        font-size: 2em;
+    }
+    .game-info {
+        font-size: 1em;
+    }
     .card {
         position: relative;
         height: 125px;
