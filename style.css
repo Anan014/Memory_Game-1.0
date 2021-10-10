@@ -205,10 +205,10 @@ body {
 
 @media (max-width:600px) {
     .page-title {
-        font-size: 2em;
+        font-size: 3em;
     }
     .game-info {
-        font-size: 1em;
+        font-size: 2em;
     }
     .card {
         position: relative;
