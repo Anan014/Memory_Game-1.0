@@ -233,8 +233,8 @@ body {
         width: 70%;
         height: 70%;
     }
-    .game-info-container {
-        flex-direction: column;
+    /* .game-info-container {
+        flex-direction: row;
         align-items: center;
-    }
+    } */
 }
